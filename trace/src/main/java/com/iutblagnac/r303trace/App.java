@@ -11,10 +11,19 @@ public class App
         System.out.println(hello());
     }
 
+    /**
+     * 
+     * @return Un String "Hello World!"
+     */
     public static String hello() {
         return  "Hello World!" ;
     }
 
+    /**
+     * 
+     * @param param
+     * @return Un String "Hello " + param
+     */
     public static String hello(String param) {
         return  param ;
     }

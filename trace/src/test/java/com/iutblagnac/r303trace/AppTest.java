@@ -40,6 +40,6 @@ public class AppTest
      */
     public void testHelloParameter()
     {
-        assertEquals("Hello JMB!", App.hello("Hello JMB!"));
+        assertEquals("Hello Adrian!", App.hello("Hello Adrian!"));
     }
 }
